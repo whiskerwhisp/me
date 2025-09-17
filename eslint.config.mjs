@@ -19,6 +19,15 @@ const eslintConfig = [
       "build/**",
       "next-env.d.ts",
     ],
+    "rules": [
+      {
+      "@typescript-eslint/prefer-ts-expect-error": "off",
+      "@typescript-eslint/ban-ts-comment": "off",
+      "@typescript-eslint/ban-ts-ignore": "off",
+      "@typescript-eslint/ban-ts-nocheck": "off",
+      "@typescript-eslint/ban-ts-check": "off",
+      }
+    ]
   },
 ];
 

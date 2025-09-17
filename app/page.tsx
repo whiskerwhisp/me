@@ -1,16 +1,16 @@
 import Navbar from "@/components/navbar";
-import HeroSection from "@/components/hero";
-import ProjectSection from "@/components/project";
+import Hero from "@/components/hero";
+import Project from "@/components/project";
 export default function Home() {
   return (
    <>
+   <div className="pt-4 bg-[url('/assets/background.jpg')] bg-cover bg-no-repeat bg-fixed"> 
       <Navbar />
       <div className="md:flex flex-row">
-        <HeroSection />
-          <ProjectSection />
+        <Hero/>
+          <Project />
           </div>
-     
+    </div>
  </>
   );
 } 
-
