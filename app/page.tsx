@@ -8,7 +8,7 @@ export default function Home() {
       <Navbar />
       <div className="md:flex flex-row">
         <Hero/>
-          <Project />
+          <Project/>
           </div>
     </div>
  </>

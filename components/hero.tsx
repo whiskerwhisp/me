@@ -24,11 +24,11 @@ export default function Hero() {
         </GlassPanel>
         <GlassPanel className="w-full md:w-2/5 h-[220px] md:h-84 lg:h-[476px] relative">
           <Image
-            src="/assets/hachiNana.png"
-            width={360}
+            src="/assets/waguriKaoruko.png"
+            width={380}
             height={120}
             alt="hachiNana"
-            className="object-contain w-[170px] md:w-[320px] absolute bottom-0"
+            className="object-contain w-[170px] md:w-[340px] absolute bottom-0"
           />
         </GlassPanel>
       </div>
