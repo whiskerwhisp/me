@@ -1,7 +1,8 @@
 // @ts-nocheck
 "use client"
-import React from "react"
-import Image from "next/image"
+import React from "react";
+import Image from "next/image";
+import Contact from "@/components/contact";
 
 export default function Hero() {
   const GlassPanel = ({children,className=""})=>(
@@ -35,14 +36,13 @@ export default function Hero() {
 
       {/* Second block */}
       <div className="flex flex-col md:flex-row gap-4">
-        <GlassPanel className="w-full md:w-1/2 h-64 md:h-[330px] lg:h-[351px]">
+        <GlassPanel className="w-full md:w-1/2 h-64 md:h-[350px] lg:h-[351px]">
           <p>about me</p>
         </GlassPanel>
-        <GlassPanel className="w-full md:w-1/2 h-48 md:h-[330px] lg:h-[351px]">
-          <p>contact me</p>
+        <GlassPanel className="w-full md:w-1/2  min-h-64 md:h-[350px] lg:h-[351px]">
+         <Contact/>
         </GlassPanel>
       </div>
     </section>
   )
 }
-
