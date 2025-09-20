@@ -1,6 +1,6 @@
-import Navbar from "@/components/navbar";
-import Hero from "@/components/hero";
-import Project from "@/components/project";
+import Navbar from "@/sections/navbar";
+import Hero from "@/sections/hero";
+import Project from "@/sections/project";
 export default function Home() {
   return (
    <>
