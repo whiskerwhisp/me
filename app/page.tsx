@@ -5,14 +5,11 @@ export default function Home() {
   return (
    <>
    <div className="min-h-screen pt-4 bg-[url('/assets/background.jpg')] bg-cover bg-no-repeat bg-fixed"> 
-      <div className="min-h-screen">
          <Navbar />
       <div className="md:flex flex-row ">
         <Hero/>
           <Project/>
-          </div>
-      </div>
-     
+     </div>
     </div>
  </>
   );

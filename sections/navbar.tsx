@@ -26,7 +26,7 @@ const Navbar: FC = () => {
         style={{ backdropFilter: "blur(12px)", WebkitBackdropFilter: "blur(12px)" }}
       >
         {/* Logo */}
-        <h1 className="text-lg md:text-2xl font-bold">RIA'S PORTFOLIO</h1>
+        <h1 className="text-lg md:text-2xl font-bold">RIA'S PORTFOLIO.☘︎ ݁˖</h1>
 
         {/* Desktop links */}
         <div className="hidden md:flex gap-6">
