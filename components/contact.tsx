@@ -22,7 +22,7 @@ const contact = () => {
           const result = await response.json();
           if (result.success) {
               Swal.fire({
-               title: "success!",
+               title: "message sent!",
                text: "Thanks for reaching out! I’ll reply shortly.",
                icon: "success"
 });
