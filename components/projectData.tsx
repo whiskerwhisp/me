@@ -16,8 +16,8 @@ export const ProjectData = [
     icon: <IceCreamBowl  />,
     bg: "bg-[#a2d2ff]/30",
     tech: ["Next.js", "Prisma","postgresql"],
-    githubUrl: "https://github.com/yourname/frozio",
-    liveUrl: "https://frozio-demo.vercel.app",
+    githubUrl: "https://github.com/whiskerwhisp/Frozio",
+    liveUrl: "https://frozio.vercel.app/",
   },
   {
     title: "Shortify",

@@ -34,7 +34,7 @@ export default function Hero() {
           </div>
         </GlassPanel>
          <GlassPanel className="w-full md:w-3/5 min-h-64 md:h-[340px] lg:h-[479px]">
-          <p className="text-center p-4 xl:p-8 lg:text-xl xl:text-2xl ">A passionate Full Stack Developer in my final year of college. I enjoy working across the stack, but I have a deep interest in frontend because I love making things look beautiful and feel smooth to use. Through this journey I’ve realized that coding isn’t just about logic — it comes with ups and downs, I’m focused on creating user-friendly interfaces✧ <br/>━━━━⊱⋆⊰━━━━</p>
+          <p className="text-center p-4 xl:p-8 lg:text-xl xl:text-2xl">A passionate Full Stack Developer in my final year of college. I enjoy working across the stack, but I have a deep interest in frontend because I love making things look beautiful and feel smooth to use. Through this journey I’ve realized that coding isn’t just about logic — it comes with ups and downs, I’m focused on creating user-friendly interfaces✧ <br/>━━━━⊱⋆⊰━━━━</p>
         
         </GlassPanel>
       </div>

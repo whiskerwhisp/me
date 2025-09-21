@@ -20,7 +20,7 @@ const Navbar: FC = () => {
   const toggleMenu = () => setIsOpen(!isOpen);
 
   return (
-    <header className="sticky top-4 z-50 px-4 ">
+    <header className="sticky top-4 z-50 px-4">
       <nav
         className="flex justify-between items-center px-4 py-4 bg-white/10 border border-[#cf84a0] rounded-xl shadow-md text-white backdrop-blur-md"
         style={{ backdropFilter: "blur(12px)", WebkitBackdropFilter: "blur(12px)" }}
