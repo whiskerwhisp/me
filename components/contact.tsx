@@ -2,7 +2,7 @@ import React from "react"
 import Swal from "sweetalert2"
 
 const contact = () => {
-       async function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
+ async function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
           event.preventDefault();
           const formData = new FormData(event.currentTarget);
 
