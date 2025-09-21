@@ -71,7 +71,7 @@ export default function Project() {
 
 // for large screens
   return (
-    <section className="w-full flex flex-col md:w-1/3 gap-4 px-4 pb-4 md:px-0 md:pt-4 md:pr-4 md:pb-0">
+    <section className="w-full flex flex-col md:w-1/3 gap-4 px-4 pb-4 md:px-0 md:pt-4 md:pr-4 md:pb-0" id="project">
       <GlassPanel className="w-full h-96 md:h-[560px] lg:h-[728px] px-3 py-3">
         <div className="hidden xl:flex xl:flex-col xl:h-full space-y-3">
         {ProjectData.map((item, i) => (
@@ -162,9 +162,9 @@ export default function Project() {
 </GlassPanel>
 
       <GlassPanel className="w-full h-25 md:h-[130px] lg:h-[102px] flex items-center justify-center gap-6">
-        <a className="hover:underline" href="#">GITHUB</a>
-        <a className="hover:underline" href="#">TWITTER</a>
-        <a className="hover:underline" href="#">LINKEDIN</a>
+        <a className="hover:underline" href="https://github.com/whiskerwhisp">GITHUB</a>
+        <a className="hover:underline" href="https://x.com/rigottaluv">X</a>
+        <a className="hover:underline" href="https://www.linkedin.com/in/riya-rana-33a9572b4/">LINKEDIN</a>
       </GlassPanel>
     </section>
   );

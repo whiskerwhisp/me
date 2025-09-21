@@ -29,10 +29,10 @@ const contact = () => {
           }
       }
   return (
-<section className="h-full w-full flex items-center justify-center">
+<section className="h-full w-full flex items-center justify-center" id="contact">
   <form onSubmit={handleSubmit}
     className="w-full h-full flex flex-col justify-between rounded-2xl shadow-lg px-4 py-3">
-    <h2 className="flex flex-col items-center text-xl mt-0">Get in Touch</h2>
+    <h2 className="flex flex-col items-center text-xl mt-0 font-bold">Get in Touch</h2>
     <div className="flex flex-col mb-2">
       <label className="text-sm font-medium text-white mb-1">Your Name</label>
       <input
@@ -68,7 +68,7 @@ const contact = () => {
     <button
       type="submit"
       className="mt-auto rounded-lg bg-[#f6a6bb] px-4 py-2 font-semibold text-white shadow-sm hover:bg-[#ec88a3] transition">
-      Send Message 
+      Send Message ☘︎
     </button>
   </form>
 </section>

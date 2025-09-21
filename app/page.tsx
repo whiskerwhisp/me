@@ -4,13 +4,17 @@ import Project from "@/sections/project";
 export default function Home() {
   return (
    <>
-   <div className="pt-4 bg-[url('/assets/background.jpg')] bg-cover bg-no-repeat bg-fixed"> 
-      <Navbar />
-      <div className="md:flex flex-row">
+   <div className="min-h-screen pt-4 bg-[url('/assets/background.jpg')] bg-cover bg-no-repeat bg-fixed"> 
+      <div className="min-h-screen">
+         <Navbar />
+      <div className="md:flex flex-row ">
         <Hero/>
           <Project/>
           </div>
+      </div>
+     
     </div>
  </>
   );
 } 
+
