@@ -67,7 +67,7 @@ const contact = () => {
 
     <button
       type="submit"
-      className="mt-auto rounded-lg bg-[#f6a6bb] px-4 py-2 font-semibold text-white shadow-sm hover:bg-[#ea7a98] transition">
+      className="mt-auto rounded-lg bg-[#f6a6bb] px-4 py-2 font-semibold text-white shadow-sm hover:bg-[#ec88a3] transition">
       Send Message 
     </button>
   </form>
