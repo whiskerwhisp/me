@@ -2,9 +2,9 @@ import React from "react"
 import Swal from "sweetalert2"
 
 const contact = () => {
-  async function handleSubmit(event:any) {
+       async function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
           event.preventDefault();
-          const formData = new FormData(event.target);
+          const formData = new FormData(event.currentTarget);
 
           formData.append("access_key", process.env.NEXT_PUBLIC_ACCESS_KEY || "");
 
@@ -26,8 +26,8 @@ const contact = () => {
                text: "Thanks for reaching out! I’ll reply shortly.",
                icon: "success"
 });
-}
-}
+          }
+      }
   return (
 <section className="h-full w-full flex items-center justify-center">
   <form onSubmit={handleSubmit}

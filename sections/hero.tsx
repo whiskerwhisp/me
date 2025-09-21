@@ -20,9 +20,6 @@ export default function Hero() {
     <section className="w-full flex flex-col gap-4 p-4 md:w-2/3">
       {/* First block */}
       <div className="flex flex-col md:flex-row gap-4 ">
-        <GlassPanel className="w-full md:w-3/5 h-64 md:h-[340px] lg:h-[479px]">
-          <p>Artist Redefining Architecture with AI-Driven Design</p>
-        </GlassPanel>
         <GlassPanel className="w-full md:w-2/5 h-[220px] md:h-84 lg:h-[476px] relative">
           <Image
             src="/assets/waguriKaoruko.png"
@@ -31,6 +28,9 @@ export default function Hero() {
             alt="hachiNana"
             className="object-contain w-[170px] md:w-[340px] absolute bottom-0"
           />
+        </GlassPanel>
+         <GlassPanel className="w-full md:w-3/5 h-64 md:h-[340px] lg:h-[479px]">
+          <p>Artist Redefining Architecture with AI-Driven Design</p>
         </GlassPanel>
       </div>
 
