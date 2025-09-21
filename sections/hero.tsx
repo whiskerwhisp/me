@@ -22,12 +22,16 @@ export default function Hero() {
       <div className="flex flex-col md:flex-row gap-4 ">
         <GlassPanel className="w-full md:w-2/5 h-[220px] md:h-84 lg:h-[476px] relative">
           <Image
-            src="/assets/waguriKaoruko.png"
-            width={380}
-            height={120}
-            alt="hachiNana"
-            className="object-contain w-[170px] md:w-[340px] absolute bottom-0"
+            src="/assets/portfoiliopfp.jpg"
+            width={100}
+            height={100}
+            alt="ria"
+            className="w-[100px] md:w-[145px] lg:w-[200px] rounded-full border-3 border-[#cf84a0] absolute top-3.5 lg:top-8"
           />
+          <div className="mt-23 md:mt-35 p-2">
+            <h1 className="font-bold text-xl lg:text-2xl xl:text-3xl text-center">HIE! I AM RIAᡣ𐭩</h1>
+            <p className="md:mt-2 lg:mt-5 xl:text-xl text-center">21-year-old who loves turning ideas into beautiful, user-friendly websites</p>
+          </div>
         </GlassPanel>
          <GlassPanel className="w-full md:w-3/5 h-64 md:h-[340px] lg:h-[479px]">
           <p>Artist Redefining Architecture with AI-Driven Design</p>
@@ -37,7 +41,7 @@ export default function Hero() {
       {/* Second block */}
       <div className="flex flex-col md:flex-row gap-4">
         <GlassPanel className="w-full md:w-1/2 h-64 md:h-[350px] lg:h-[351px]">
-          <p>about me</p>
+          <p>currently learning</p>
         </GlassPanel>
         <GlassPanel className="w-full md:w-1/2  min-h-64 md:h-[350px] lg:h-[351px]">
          <Contact/>
