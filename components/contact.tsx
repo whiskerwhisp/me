@@ -31,10 +31,10 @@ const contact = () => {
   return (
 <section className="h-full w-full flex items-center justify-center" id="contact">
   <form onSubmit={handleSubmit}
-    className="w-full h-full flex flex-col justify-between rounded-2xl shadow-lg px-4 py-3">
+    className="w-full h-full flex flex-col justify-between rounded-2xl shadow-lg px-4 py-3 text-color">
     <h2 className="flex flex-col items-center text-xl mt-0 font-bold">Get in Touch</h2>
     <div className="flex flex-col mb-2">
-      <label className="text-sm font-medium text-white mb-1">Your Name</label>
+      <label className="text-sm font-medium mb-1">Your Name</label>
       <input
         type="text"
         name="name"
@@ -45,7 +45,7 @@ const contact = () => {
     </div>
 
     <div className="flex flex-col mb-2">
-      <label className="text-sm font-medium text-white mb-1">Your Email</label>
+      <label className="text-sm font-medium  mb-1">Your Email</label>
       <input
         type="email"
         name="email"
@@ -55,7 +55,7 @@ const contact = () => {
       />
     </div>
     <div className="flex flex-col mb-3">
-      <label className="text-sm font-medium text-white mb-1">Your Message</label>
+      <label className="text-sm font-medium mb-1">Your Message</label>
       <textarea
         name="message"
         placeholder="haru says goodluck"
@@ -67,7 +67,7 @@ const contact = () => {
 
     <button
       type="submit"
-      className="mt-auto rounded-lg bg-[#f6a6bb] px-4 py-2 font-semibold text-white shadow-sm hover:bg-[#ec88a3] transition">
+      className="mt-auto rounded-lg bg-[#f6a6bb] px-4 py-2 font-semibold shadow-sm hover:bg-[#ec88a3] transition">
       Send Message ☘︎
     </button>
   </form>

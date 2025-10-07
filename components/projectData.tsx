@@ -1,4 +1,4 @@
-import { House, IceCreamBowl, Link } from "lucide-react";
+import { House, IceCreamBowl, Key } from "lucide-react";
 
 export const ProjectData = [
   {
@@ -7,7 +7,7 @@ export const ProjectData = [
     icon: <House />,
     bg: "bg-[#de4a55]/30",
     tech: ["Next.js", "MongoDB", "Tailwind"],
-    githubUrl: "https://github.com/yourname/casacozy",
+    githubUrl: "https://github.com/whiskerwhisp",
     liveUrl: "https://casacozy.vercel.app",
   },
   {
@@ -20,13 +20,13 @@ export const ProjectData = [
     liveUrl: "https://frozio.vercel.app/",
   },
   {
-    title: "Shortify",
-    text: "A minimal and fast URL shortener that transforms long, messy links into sleek, shareable ones.",
-    icon: <Link />,
+    title: "Locksy",
+    text: " A strong password generator with a built-in secure vault.",
+    icon: <Key />,
     bg: "bg-[#a9a9a9]/60",
-    tech: ["MERN"],
-    githubUrl: "https://github.com/yourname/shortify",
-    liveUrl: "https://shortify-demo.vercel.app",
+    tech: ["Next.js", "MongoDB", "TS"],
+    githubUrl: "https://github.com/whiskerwhisp",
+    liveUrl: "https://locksy-demo.vercel.app",
   },
 ];
 

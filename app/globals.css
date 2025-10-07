@@ -2,4 +2,9 @@
 
 @theme {
     --breakpoint-3xl:2000px;
+   
+}
+
+.text-color {
+    @apply text-[#c16683]
 }

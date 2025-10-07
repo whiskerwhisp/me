@@ -7,8 +7,8 @@ import ProjectData from "@/components/projectData"
 import { ChevronDown, Github, ExternalLink, } from "lucide-react";
 
 export default function Project() {
-  const [openIdx, setOpenIdx] = useState<number | null>(0);
-
+  const [openIdx, setOpenIdx] = useState<number | null>(null);
+ 
   // accordian for small screens
   const AccordionItem = ({ item, idx }: { item: typeof ProjectData[0]; idx: number }) => {
     const isOpen = openIdx === idx;
@@ -22,14 +22,14 @@ export default function Project() {
           <a href={item.liveUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="font-semibold hover:underline">{item.title}</a>
+              className="font-semibold hover:underline text-color">{item.title}</a>
           </div>
 
           <button
             onClick={() => setOpenIdx(isOpen ? null : idx)}
             aria-expanded={isOpen}
             className="ml-auto">
-            <ChevronDown className={`w-5 h-5 transition-transform ${isOpen ? "rotate-180" : ""}`} />
+            <ChevronDown className={`w-5 h-5 transition-transform text-color ${isOpen ? "rotate-180" : ""}`} />
           </button>
         </div>
         <div
@@ -37,18 +37,18 @@ export default function Project() {
             isOpen ? "grid-rows-[1fr] opacity-100" : "grid-rows-[0fr] opacity-0"
           }`}>
           <div className="overflow-hidden">
-            <p className="px-4 pb-3 text-sm leading-relaxed">{item.text}</p>
+            <p className="px-4 pb-3 text-sm leading-relaxed text-color">{item.text}</p>
          <div className="px-4 pb-3 flex flex-wrap gap-2">
               {item.tech.map((t) => (
                 <span
                   key={t}
-                  className="text-xs px-2 py-1 rounded-full border border-white/20 bg-white/10">
+                  className="text-xs px-2 py-1 bg-white/60 rounded text-color">
                   {t}
                 </span>
               ))}
             </div>
 
-            <div className="px-4 pb-4 flex items-center gap-4 text-sm">
+            <div className="px-4 pb-4 flex items-center gap-4 text-sm text-color">
               <a
                 href={item.githubUrl}
                 target="_blank"
@@ -75,7 +75,7 @@ export default function Project() {
       <GlassPanel className="w-full h-96 md:h-[560px] lg:h-[728px] px-3 py-3">
         <div className="hidden xl:flex xl:flex-col xl:h-full space-y-3">
         {ProjectData.map((item, i) => (
-        <div key={item.title} className="h-1/3 flex">
+        <div key={item.title} className="h-1/3 flex text-color">
           {i % 2 === 0 ? (
           <>
      {/* on leftside */}
@@ -85,7 +85,7 @@ export default function Project() {
             {item.tech.map((t) => (
               <button
                 key={t}
-                className="px-2 py-1 bg-black/30 rounded text-xs mt-5">
+                className="px-2 py-1 bg-white/20 rounded text-xs mt-5">
                 {t}
               </button>
             ))}
@@ -129,7 +129,7 @@ export default function Project() {
            {React.cloneElement(item.icon, { className: "w-20 h-20 text-white mt-3" })}
           <div className="mt-2 flex gap-2 flex-wrap">
             {item.tech.map((t) => (
-              <button key={t} className="px-2 py-1 bg-black/30 rounded text-xs mt-5">{t}</button>
+              <button key={t} className="px-2 py-1 bg-white/20 rounded text-xs mt-5">{t}</button>
             ))}
           </div>
 
@@ -161,7 +161,7 @@ export default function Project() {
 </div>
 </GlassPanel>
 
-      <GlassPanel className="w-full h-25 md:h-[130px] lg:h-[102px] flex items-center justify-center gap-6">
+      <GlassPanel className="w-full h-25 md:h-[130px] lg:h-[102px] flex items-center justify-center gap-6 text-color">
         <a className="hover:underline" href="https://github.com/whiskerwhisp">GITHUB</a>
         <a className="hover:underline" href="https://x.com/rigottaluv">X</a>
         <a className="hover:underline" href="https://www.linkedin.com/in/riya-rana-33a9572b4/">LINKEDIN</a>

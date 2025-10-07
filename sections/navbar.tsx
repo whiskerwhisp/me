@@ -26,10 +26,10 @@ const Navbar: FC = () => {
         style={{ backdropFilter: "blur(12px)", WebkitBackdropFilter: "blur(12px)" }}
       >
         {/* Logo */}
-        <h1 className="text-lg md:text-2xl font-bold">RIA'S PORTFOLIO.☘︎ ݁˖</h1>
+        <h1 className="text-lg md:text-2xl font-bold text-color">RIA'S PORTFOLIO.☘︎ ݁˖</h1>
 
         {/* Desktop links */}
-        <div className="hidden md:flex gap-6">
+        <div className="hidden md:flex gap-6 text-color">
           {LINKS.map((link) => (
             <a key={link.name} href={link.link} className="hover:underline">
               {link.name}
@@ -38,7 +38,7 @@ const Navbar: FC = () => {
         </div>
 
         {/* Hamburger for mobile */}
-        <div className="md:hidden">
+        <div className="md:hidden text-[#c16683]">
           <button onClick={toggleMenu} aria-label={isOpen ? "Close menu" : "Open menu"}>
             {isOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
@@ -47,7 +47,7 @@ const Navbar: FC = () => {
 
       {/* Mobile menu */}
       {isOpen && (
-        <div className="md:hidden mt-2 bg-white/10 border border-[#cf84a0] rounded-xl p-4 flex flex-col gap-3 text-white backdrop-blur-md">
+        <div className="md:hidden mt-2 bg-white/10 border border-[#cf84a0] text-[#c16683] rounded-xl p-4 flex flex-col gap-3 backdrop-blur-md">
           {LINKS.map((link) => (
             <a
               key={link.name}
