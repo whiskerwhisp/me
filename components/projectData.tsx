@@ -25,9 +25,9 @@ export const ProjectData = [
     text: "A cozy rental platform where users can discover unique stays, create their own listings, and manage them with full CRUD functionality.",
     icon: <House />,
     bg: "bg-[#de4a55]/30",
-    tech: ["Next.js", "MongoDB", "Tailwind"],
-    githubUrl: "https://github.com/whiskerwhisp",
-    liveUrl: "https://casacozy.vercel.app",
+    tech: ["Nodejs", "MongoDB", "Bootstrap"],
+    githubUrl: "https://github.com/whiskerwhisp/CasaCozy",
+    liveUrl: "https://casacozy.onrender.com/listings",
   },
 ];
 
