@@ -8,7 +8,7 @@ export const ProjectData = [
     icon: <Key />,
     bg: "bg-[#a9a9a9]/60",
     tech: ["Next.js", "MongoDB", "TS"],
-    githubUrl: "https://github.com/whiskerwhisp/Locksy",
+    githubUrl: "https://github.com/whiskerwhisp/LocksyVault",
     liveUrl: "https://locksy-vault.vercel.app/",
   },
   {
